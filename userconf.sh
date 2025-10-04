@@ -10,4 +10,5 @@ getPassword() {
 }
 
 echo "$(getUsername):$(getPassword)" > userconf.txt
+
 touch ssh
